@@ -507,6 +507,7 @@ GameObject:
   - component: {fileID: 1613438109}
   - component: {fileID: 1613438110}
   - component: {fileID: 1613438111}
+  - component: {fileID: 1613438112}
   m_Layer: 0
   m_Name: BlueDragon
   m_TagString: Untagged
@@ -721,4 +722,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3d5feb356fd421d9b865cc8e860868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: {x: 0, y: 400}
+  JumpForce: {x: 0, y: 250}
+--- !u!114 &1613438112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613438106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8b644781ec24b67be0bef70a96d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
