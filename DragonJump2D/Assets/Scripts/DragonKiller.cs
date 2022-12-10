@@ -10,5 +10,10 @@ public class DragonKiller : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+
+        if (transform.position.y < 6)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
