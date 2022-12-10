@@ -13,15 +13,13 @@ public class MoveLeft : MonoBehaviour
         if (transform.position.x < -12)
         {
             transform.position += Vector3.right * 30;
-
             ShowRandomSprite();
         }
     }
 
     private void ShowRandomSprite()
     {
-        int index = UnityEngine.Random.Range(0, 3);
-
+        int index = UnityEngine.Random.Range(0, 4);
         int childCount = transform.childCount;
 
         for (int i = 0; i < childCount; i++)
@@ -31,5 +29,10 @@ public class MoveLeft : MonoBehaviour
 
             child.gameObject.SetActive(shouldShow);
         }
+    }
+
+    private void OnEnable()
+    {
+        ShowRandomSprite();
     }
 }
