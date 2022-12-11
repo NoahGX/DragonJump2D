@@ -8,7 +8,7 @@ public class MoveLeft : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * Speed);
+        transform.Translate(Vector3.left * Time.deltaTime * Speed, Space.World);
 
         if (transform.position.x < -12)
         {
@@ -19,7 +19,7 @@ public class MoveLeft : MonoBehaviour
 
     private void ShowRandomSprite()
     {
-        int index = UnityEngine.Random.Range(0, 4);
+        int index = UnityEngine.Random.Range(0, 3);
         int childCount = transform.childCount;
 
         for (int i = 0; i < childCount; i++)
