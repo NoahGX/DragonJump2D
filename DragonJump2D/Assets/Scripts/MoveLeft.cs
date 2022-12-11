@@ -10,7 +10,6 @@ public class MoveLeft : MonoBehaviour
         enemy = GetComponent<Enemy>();
     }
 
-    //Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.left * Time.deltaTime * Speed, Space.World);
