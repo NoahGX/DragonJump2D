@@ -7,11 +7,13 @@ public class Fireball : MonoBehaviour
     void Start()
     {
         GetComponent<Rigidbody2D>().velocity = StartingVelocity;
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var enemy = collision.collider.GetComponent<Enemy>();
         enemy?.Die();
-    }
+
+        Destroy(gameObject);    }
 }
