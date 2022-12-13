@@ -254,7 +254,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 656298920144657666, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: Speed
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657667, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: m_Name
@@ -323,6 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1001 &365087109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -397,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657666, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: Speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657667, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: m_Name
@@ -466,6 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1 &434155997
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1001 &1045877443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -733,6 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1001 &1046477154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -872,6 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1001 &1419228854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -942,7 +947,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 656298920144657666, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: Speed
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657667, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: m_Name
@@ -1011,6 +1016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1 &1750725673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657666, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: Speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 656298920144657667, guid: ed5a2562533994d149d749be137e5f3a, type: 3}
       propertyPath: m_Name
@@ -1634,6 +1640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bee5eb737dd747fabad65d9c3e4bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeightVariance: 1
 --- !u!1001 &656298921145636723
 PrefabInstance:
   m_ObjectHideFlags: 0

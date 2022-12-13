@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MoveUpDown : MonoBehaviour
 {
-    private float HeightVariance;
+    public float HeightVariance;
 
     void Update()
     {
