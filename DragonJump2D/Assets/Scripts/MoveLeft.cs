@@ -14,9 +14,9 @@ public class MoveLeft : MonoBehaviour
     {
         transform.Translate(Vector3.left * Time.deltaTime * Speed, Space.World);
 
-        if (transform.position.x < -12)
+        if (transform.position.x < -10)
         {
-            transform.position += Vector3.right * 30;
+            transform.position += Vector3.right * 25;
             ShowRandomSprite();
             enemy?.Respawn();
         }
