@@ -1,2 +1,3 @@
 # DragonJump2D
  
+This project is a beginner-friendly 2D action platformer centered around a small dragon character. Players control the dragon as it navigates a scrolling environment, avoiding obstacles, engaging with simple enemies, and launching fireballs as a primary attack. The gameplay mechanics evolve gradually—starting with movement and jumping, then progressing to enemy interactions, projectile combat, and audio effects. The game supports real-time collisions, prefab instantiation (for fireballs and enemies), and WebGL deployment, allowing it to be played directly in a web browser. The project serves as both a foundational introduction to Unity and a functional, interactive side-scroller showcasing core game development principles.
